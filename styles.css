@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: round;
+}
+
+.caixa-maior{
+    background:#5c818a;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+border: none;
+outline: none;
+padding: 10px;
+border-radius: 25px;
+font-size: 20px;
+background-color: #1a16162b;
+ color: #ffff;
+ width: calc(100%-70px);
+}
+.botao-buscar {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:  #1a16162b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-buscar{
+    width:25px;
+    
+    
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 300;
+}
+.temp {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.texto-previsao {
+    
+    color: #ffff;
+    margin-left: 20px;
+}
+.umidade {
+    color: #ffff;
+    margin-top: 20px;
+}
